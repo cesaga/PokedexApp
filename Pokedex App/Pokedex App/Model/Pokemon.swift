@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Pokemon: Codable {
+struct Pokemon: Codable, Equatable {
     var name: String
     var url: String
     
@@ -18,7 +18,7 @@ struct Pokemon: Codable {
     }
     
     var imageUrl: String {
-        return "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/\(id).png"
+        return "\(Constants.baseImageURL)\(id)\(Constants.imageExtension)"
     }
 }
 
