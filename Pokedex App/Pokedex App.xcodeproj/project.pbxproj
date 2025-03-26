@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1416C0442D947FA500D72CBE /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 1416C0432D947FA500D72CBE /* Kingfisher */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		14ACE46C2D91EC0400544E9F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -65,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1416C0442D947FA500D72CBE /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +130,7 @@
 			);
 			name = "Pokedex App";
 			packageProductDependencies = (
+				1416C0432D947FA500D72CBE /* Kingfisher */,
 			);
 			productName = "Pokedex App";
 			productReference = 14ACE4552D91EC0300544E9F /* Pokedex App.app */;
@@ -208,6 +214,9 @@
 			);
 			mainGroup = 14ACE44C2D91EC0300544E9F;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				1416C0422D947FA500D72CBE /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 14ACE4562D91EC0300544E9F /* Products */;
 			projectDirPath = "";
@@ -569,6 +578,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1416C0422D947FA500D72CBE /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.3.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1416C0432D947FA500D72CBE /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1416C0422D947FA500D72CBE /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 14ACE44D2D91EC0300544E9F /* Project object */;
 }
