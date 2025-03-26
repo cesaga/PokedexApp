@@ -1,6 +1,6 @@
-# PokedexApp
+# Pokedex App
 
-Pokedex App Using Swift, UIKit, Pokémon API, Kingfisher framework for downloading and caching images
+Pokedex App Using Swift, Programmatically views with UIKit, Pokémon API, Kingfisher framework for downloading and caching images.
 
 | Pokemon List | Pokemon Detail |
 |--------------|----------------|
