@@ -30,7 +30,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		14ACE47D2D91EC0400544E9F /* Exceptions for "Pokedex App" folder in "Pokedex App" target */ = {
+		1416BEFD2D93829300D72CBE /* Exceptions for "Pokedex App" folder in "Pokedex App" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -40,10 +40,10 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		14ACE4572D91EC0300544E9F /* Pokedex App */ = {
+		1416BEEF2D93829300D72CBE /* Pokedex App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				14ACE47D2D91EC0400544E9F /* Exceptions for "Pokedex App" folder in "Pokedex App" target */,
+				1416BEFD2D93829300D72CBE /* Exceptions for "Pokedex App" folder in "Pokedex App" target */,
 			);
 			path = "Pokedex App";
 			sourceTree = "<group>";
@@ -88,7 +88,7 @@
 		14ACE44C2D91EC0300544E9F = {
 			isa = PBXGroup;
 			children = (
-				14ACE4572D91EC0300544E9F /* Pokedex App */,
+				1416BEEF2D93829300D72CBE /* Pokedex App */,
 				14ACE46E2D91EC0400544E9F /* Pokedex AppTests */,
 				14ACE4782D91EC0400544E9F /* Pokedex AppUITests */,
 				14ACE4562D91EC0300544E9F /* Products */,
@@ -121,7 +121,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				14ACE4572D91EC0300544E9F /* Pokedex App */,
+				1416BEEF2D93829300D72CBE /* Pokedex App */,
 			);
 			name = "Pokedex App";
 			packageProductDependencies = (
@@ -294,7 +294,7 @@
 				INFOPLIST_FILE = "Pokedex App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,7 +322,7 @@
 				INFOPLIST_FILE = "Pokedex App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
